@@ -1,0 +1,17 @@
+h1 {
+    color: antiquewhite;
+    background-color: black;
+    font-family: cursive;
+}
+h2 {
+    color: white;
+    background-color: indigo;
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    color: black;
+    background-color: aqua;
+    text-align: right;
+    text-decoration: underline;
+}
