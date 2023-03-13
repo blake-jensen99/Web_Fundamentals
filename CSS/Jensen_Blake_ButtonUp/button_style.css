@@ -1,0 +1,36 @@
+div {
+    margin: 25px;
+}
+#search {
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    width: fit-content;
+    padding: 5px 60px;
+    height: fit-content;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+#plus {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: teal;
+    border: 1px solid teal;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#create {
+    color: whitesmoke;
+    background-color: blue;
+    border: 3px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 60px;
+    box-shadow: 5px 5px black;
+}
