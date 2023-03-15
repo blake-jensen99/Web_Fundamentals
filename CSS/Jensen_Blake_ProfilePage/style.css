@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------------------NAVBAR---------------------------------------------- */
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    border: 1px;
+    align-items: center;
+}
+
+.bar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title{
+    color: white;
+    font-family: cursive;
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #17A2B8;
+    color: white;
+    height: 30px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+/* ----------------------------------------NAVBAR---------------------------------------- */
+/* --------------------------------------MAIN------------------------------------------ */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* -----------col1--------- */
+.col1{
+    display: block;
+    flex:2;
+    margin: 5px;
+}
+
+/* User-card ---------------------------------*/
+.card {
+    width: 600px;
+    height: 300px;
+    border: 2px solid gray;
+    align-content: center;
+    margin: 15px;
+}
+
+#user {
+    width: 75px;
+    margin-left: 25px;
+    position: relative;
+    bottom: -40px
+}
+
+.header {
+    width: 600px;
+    height: 100px;
+    background-color:#17A2B8;
+    display: flex;
+    align-items: end;
+}
+
+.info {
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+#map {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.location {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.details{
+    margin-bottom: 5px;
+}
+
+#gear {
+    width: 15px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.edit > a{
+    color: blue;
+    text-decoration: underline;
+}
+/* user-card ------------------------------*/
+/* edu------------------------------------- */
+.edu{
+    margin: 15px;
+    border: 2px solid grey;
+}
+
+.edu-head{
+    color: white;
+    background-color: rgb(39, 39, 39);
+    padding: 5px 10px;
+}
+
+.edu-body *{
+        margin-top: 10px;
+        margin-left: 10px;
+}
+/* edu------------------------------------- */
+/* -----------col1--------- */
+
+/* -----------col2--------- */
+.col2{
+    display: block;
+    flex:1;
+    margin: 5px;
+}
+
+.request{
+        margin: 15px;
+    border: 2px solid grey;
+}
+
+.col2-head{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    font-size: 15px;
+    padding: 8px 15px;
+    justify-content: space-evenly;
+    margin-bottom: 3px;
+}
+
+.two{
+    background-color: rgb(192, 192, 192);
+    border-radius: 50%;
+    width: 15px;
+    padding: 2px;
+    text-align: center;
+}
+
+.conn{
+    color: white;
+    margin-top: 2px;
+}
+
+
+.user-col2{
+    width: 30px;
+}
+
+
+.todd{
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.name-l{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3px;
+}
+
+.phil{
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.connect{
+    margin: 15px;
+    border: 2px solid grey;
+}
+
+.five{
+    background-color: rgb(192, 192, 192);
+    border-radius: 50%;
+    padding: 2px;
+    text-align: center;
+}
+
+.conn-names{
+    margin-left: 2px;
+}
+
+.link{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.link > a{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* -----------col2--------- */
+
+
+/* --------------------------------------MAIN------------------------------------------ */
+
+
