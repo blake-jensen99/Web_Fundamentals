@@ -63,7 +63,6 @@ a{
 
 /* User-card ---------------------------------*/
 .card {
-    width: 600px;
     height: 300px;
     border: 2px solid gray;
     align-content: center;
@@ -78,7 +77,6 @@ a{
 }
 
 .header {
-    width: 600px;
     height: 100px;
     background-color:#17A2B8;
     display: flex;
