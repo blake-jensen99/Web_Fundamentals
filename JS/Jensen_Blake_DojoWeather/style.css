@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* NAV */
+
+body{
+    height: 5000px;
+}
+
+nav {
+    background-color: rgb(16, 82, 43);
+    color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+nav p:hover{
+    color: black;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+li:hover{
+    color: black;
+}
+
+/* NAV */
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items: center;
+    border-bottom: 3px solid black;    
+    padding-bottom: 20px;
+}
+
+header p{
+    font-size:x-large;
+}
+
+header select{
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 0px 80px;    
+    gap: 20px;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(145, 175, 165);
+    border-radius: 5px;
+    gap: 30px;
+    padding: 10px;
+    font-size: large;
+    height: 275px;
+}
+
+.day{
+    font-size: larger;
+}
+
+.col img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.temp {
+    display: flex;
+    gap: 80px;
+}
+
+.highT{
+    color: rgb(255, 255, 255);
+}
+
+.lowT{
+    color: rgb(99, 99, 99);
+}
+
+/* MAIN */
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items: center;
+    border: 2px solid rgb(134, 134, 134);
+    position: sticky;
+    top: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.footL{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#stop{
+    font-size: large;
+    font-weight: bolder;
+}
+
+button {
+    background-color: rgb(145, 175, 165);
+    padding: 3px;
+    width: 150px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+
+#foot{
+    gap: 10px;
+}
+
+/* FOOTER */

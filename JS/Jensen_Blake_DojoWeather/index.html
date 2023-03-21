@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav>
+        <p>DojoWeather</p>
+        <ul>
+            <li onclick="alert('Loading weather report...')">Topeka</li>
+            <li onclick="alert('Loading weather report...')">Lawrence</li>
+            <li onclick="alert('Loading weather report...')">Olathe</li>
+        </ul>
+    </nav>
+    <!-- NAV -->
+    <!-- HEADER -->
+    <header>
+        <p>Ottawa</p>
+        <div>
+            <label for="degrees">show temperature in</label>
+            <select onchange="tempChange(this)" name="degrees" id="degrees">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </header>
+    <!-- HEADER -->
+    
+    <!-- MAIN -->
+    <main>
+        <div class="col">
+            <p class="day">Today</p>
+            <img src="assets/some_rain.png" alt="cloud raining">
+            <p>some rain</p>
+            <div class="temp">
+                <p class="highT"><span class="high">24</span>°</p>
+                <p class="lowT"><span class="low">18</span>°</p>
+            </div>
+        </div>
+        <div class="col">
+            <p class="day">Tomorrow</p>
+            <img src="assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="temp">
+                <p class="highT"><span class="high">27</span>°</p>
+                <p class="lowT"><span class="low">19</span>°</p>
+            </div>
+        </div>
+        <div class="col">
+            <p class="day">Friday</p>
+            <img src="assets/some_clouds.png" alt="cloud">
+            <p>some clouds</p>
+            <div class="temp">
+                <p class="highT"><span class="high">21</span>°</p>
+                <p class="lowT"><span class="low">16</span>°</p>
+            </div>
+        </div>
+        <div class="col">
+            <p class="day">Saturday</p>
+            <img src="assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="temp">
+                <p class="highT"><span class="high">26</span>°</p>
+                <p class="lowT"><span class="low">21</span>°</p>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN -->
+    <!-- FOOTER -->
+    <footer id="foot">
+        <div class="footL">
+            <img src="assets/cookie.png" alt="cookie">
+            <div>
+                <p id="stop">
+                    Stop! Cookie Time
+                </p>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span><a href="#">Read More...</a></span></p>
+            </div>
+        </div>
+        <button onclick="remove('#foot')">I Accept</button>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
