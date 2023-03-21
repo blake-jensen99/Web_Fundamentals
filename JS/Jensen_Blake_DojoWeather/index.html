@@ -18,6 +18,10 @@
             <li onclick="alert('Loading weather report...')">Lawrence</li>
             <li onclick="alert('Loading weather report...')">Olathe</li>
         </ul>
+        <div class="navL">
+            <input onkeydown="searchEnter(event, '#search')" id="search" type="text" placeholder="search...">
+            <button onclick="searchFun('#search')">Go!</button>
+        </div>
     </nav>
     <!-- NAV -->
     <!-- HEADER -->
@@ -32,7 +36,7 @@
         </div>
     </header>
     <!-- HEADER -->
-    
+
     <!-- MAIN -->
     <main>
         <div class="col">
@@ -81,12 +85,13 @@
                 <p id="stop">
                     Stop! Cookie Time
                 </p>
-                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span><a href="#">Read More...</a></span></p>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <span><a href="#">Read More...</a></span></p>
             </div>
         </div>
         <button onclick="remove('#foot')">I Accept</button>
     </footer>
-    
+
 
     <script src="script.js"></script>
 </body>

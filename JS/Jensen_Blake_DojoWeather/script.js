@@ -21,3 +21,18 @@ function tempChange(element) {
         }
     }
 }
+
+
+function searchFun(selector) {
+    var search_return = document.querySelector(selector).value;
+    alert("Searching for " + search_return + "...");
+}
+
+
+
+function searchEnter(event, selector) {
+    var search_return = document.querySelector(selector).value;
+    if (event.keyCode == 13) {
+        alert("Searching for " + search_return + "...")
+    }
+}
