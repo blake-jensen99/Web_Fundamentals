@@ -22,7 +22,7 @@
     gap: 30px;
 }
 
-.container-R{
+.container-L{
     flex: 1;
     border: 3px solid black;
     margin-top: 30px;
@@ -33,11 +33,11 @@
     align-items: center;
     height: 225px;
 }
-.container-R img{
+.container-L img{
     width: 100px;
 }
 
-.container-R p {
+.container-L p {
     margin-top: 30px;    
     font-size: 25px;
 }
@@ -47,7 +47,7 @@
     font-size: 15px;
 }
 
-.container-L{
+.container-R{
     flex: 2;
 }
 
@@ -64,7 +64,7 @@
     align-content: center;
 }
 
-.topL {
+.topR {
     display: flex;
     gap: 20px;
     
