@@ -6,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .dark_mode {
     color: #DDDDDD;
     background-color: #02111f;
@@ -82,9 +83,24 @@ li a {
     color: inherit;
 }
 
+li a:hover{
+    animation-name: grow;
+    animation-duration: 15s;
+}
+
+@keyframes grow{
+    0% {font-size: initial;}
+    25% {font-size: 16pt;}
+    50% {font-size: 18pt;}
+    75% {font-size: 20pt;}
+    100% {font-size: 22pt;}
+}
+
+
 li:hover {
     background-color: #c4c4c4;
 }
+
 
 
 .link_border {
