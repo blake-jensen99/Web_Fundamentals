@@ -1,9 +1,3 @@
-
-
-
-
-
-
 function toggleDark() {
     var element = document.body;
     element.classList.toggle("dark_mode");
@@ -32,7 +26,30 @@ function toggleDark() {
     for (var j = 0; j < element.length; j++) {
         element[j].classList.toggle("dark_project")
     }
+
+    var element = document.querySelector("#desert");
+    element.classList.toggle("desertdark");
+
+    var element = document.querySelector("#sea");
+    element.classList.toggle("seadark");
+
+    var element = document.querySelector(".home_flex");
+    element.classList.toggle("home_flexdark");
+
+    var element = document.querySelector(".home_top");
+    element.classList.toggle("home_topdark");
+
+    var element = document.querySelector(".self");
+    element.classList.toggle("selfdark");
+
+    var element = document.querySelector(".navR");
+    element.classList.toggle("navRdark");
+
+    var element = document.querySelector(".home_name");
+    element.classList.toggle("home_namedark");
 }
+
+
 
 
 
@@ -225,3 +242,40 @@ function openPro(evt, element) {
         }
     }
 })();
+
+
+
+var fadeElements = document.getElementsByClassName('scrollFade');
+
+function scrollFade() {
+	var viewportBottom = window.scrollY + window.innerHeight;
+
+	for (var index = 0; index < fadeElements.length; index++) {
+		var element = fadeElements[index];
+		var rect = element.getBoundingClientRect();
+
+		var elementFourth = rect.height/4;
+		var fadeInPoint = window.innerHeight - elementFourth;
+		var fadeOutPoint = -(rect.height/2);
+
+		if (rect.top <= fadeInPoint) {
+			element.classList.add('scrollFade--visible');
+			element.classList.add('scrollFade--animate');
+			element.classList.remove('scrollFade--hidden');
+		} else {
+			element.classList.remove('scrollFade--visible');
+			element.classList.add('scrollFade--hidden');
+		}
+
+		if (rect.top <= fadeOutPoint) {
+			element.classList.remove('scrollFade--visible');
+			element.classList.add('scrollFade--hidden');
+		}
+	}
+}
+
+document.addEventListener('scroll', scrollFade);
+window.addEventListener('resize', scrollFade);
+document.addEventListener('DOMContentLoaded', function() {
+    scrollFade();
+});
