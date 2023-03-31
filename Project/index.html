@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5fb21f05ed.js" crossorigin="anonymous"></script>
 </head>
@@ -16,7 +16,7 @@
     <img id="desert" src="assets/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg" alt="desert image">
     <img id="sea" src="assets/falco-negenman--f2sJr-PJDA-unsplash.jpg" alt="deep sea image">
 
-<div id="toppage"></div>
+    <div id="toppage"></div>
     <!-- NAV -->
     <nav id="nav" class="d-flex justify-content-between align-items-center w-3">
         <div class="navL d-flex justify-content-center">
@@ -45,7 +45,7 @@
 
     <!-- Home -->
     <div id="home" class="home d-flex justify-content-center align-items-center">
-        
+
         <div class="home_flex scrollFade">
             <div class="home_top d-flex justify-content-between align-items-end py-4 px-5">
                 <div class="htl">
@@ -62,7 +62,7 @@
         </div>
     </div>
     <!-- HOME -->
-    
+
     <!-- ABOUT ME -->
     <div id="about" class="home d-flex justify-content-center align-items-center">
         <div class="about_flex scrollFade">
@@ -71,57 +71,88 @@
                     <p class="text-center about_title">Education</p>
                     <div>
                         <div class="vtab">
-                            <button class="vtablinks" onclick="openEdu(event, 'Ottawa')" id="defaultOpenv">Ottawa High
+                            <button class="vtablinks" onclick="openEdu(event, 'Coding')" id="defaultOpenv">Coding
+                                Dojo</button>
+                            <button class="vtablinks" onclick="openEdu(event, 'Fort')">Fort Hays State
+                                University</button>
+                            <button class="vtablinks" onclick="openEdu(event, 'Bethany')">Bethany College</button>
+                            <button class="vtablinks" onclick="openEdu(event, 'Ottawa')">Ottawa High
                                 School</button>
-                                <button class="vtablinks" onclick="openEdu(event, 'Bethany')">Bethany College</button>
-                                <button class="vtablinks" onclick="openEdu(event, 'Fort')">Fort Hays State
-                                    University</button>
-                                    <button class="vtablinks" onclick="openEdu(event, 'Coding')">Coding Dojo</button>
-                                </div>
-                                <div id="Ottawa" class="vtabcontent">
-                                    <h3>Ottawa High School</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div id="Bethany" class="vtabcontent">
-                                    <h3>Bethany College</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div id="Fort" class="vtabcontent">
-                                    <h3>Fort Hays State University</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div id="Coding" class="vtabcontent">
-                                    <h3>Coding Dojo</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
                         </div>
-                        <div class="work">
-                            <p class="text-center about_title">Work Experience</p>
+                        <div id="Coding" class="vtabcontent">
+                            <h3>Coding Dojo</h3>
+                            <p>March 2023 - Current</p>
+                            <p>Black Belt in Programming Basics</p>
+                            <p>Yellow Belt in Web Fundamentals</p>
+                        </div>
+                        <div id="Fort" class="vtabcontent">
+                            <h3>Fort Hays State University</h3>
+                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Majored in Business Management</p>
+                            <p>Worked full-time while taking an average of 12 credit hours per semester</p>
+                        </div>
+                        <div id="Bethany" class="vtabcontent">
+                            <h3>Bethany College</h3>
+                            <p>Fall 2018 - Fall 2019</p>
+                            <p>Majored in Elementary Education</p>
+                            <p>Participated in the Honors program all three semesters</p>
+                            <p>Participated on the Track and Field team all three semesters</p>
+                        </div>
+                        <div id="Ottawa" class="vtabcontent">
+                            <h3>Ottawa High School</h3>
+                            <p>Graduated in 2018</p>
+                            <p>Lettered in varsity Track and Field all four years</p>
+                            <p>Awards:</p>
+                            <p>Pre-Professional Certification in Early Childhood Education </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <p class="text-center about_title">Work Experience</p>
                     <div>
                         <div class="vtab2">
-                            <button class="vtablinks2" onclick="openWork(event, 'Thermo')" id="defaultOpenv2">Thermo
+                            <button class="vtablinks2" onclick="openWork(event, 'BHI')" id="defaultOpenv2">BHI
+                                Energy</button>
+                            <button class="vtablinks2" onclick="openWork(event, 'Midwest')">Midwest Cabinet</button>
+                            <button class="vtablinks2" onclick="openWork(event, 'Walmart')">Walmart
+                                Distribution</button>
+                            <button class="vtablinks2" onclick="openWork(event, 'Thermo')">Thermo
                                 Fisher</button>
-                                <button class="vtablinks2" onclick="openWork(event, 'Walmart')">Walmart
-                                    Distribution</button>
-                                    <button class="vtablinks2" onclick="openWork(event, 'Midwest')">Midwest Cabinet</button>
-                                    <button class="vtablinks2" onclick="openWork(event, 'BHI')">BHI Energy</button>
-                                </div>
-                                <div id="Thermo" class="vtabcontent2 tcl">
-                                    <h3>Thermo Fisher</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div id="Walmart" class="vtabcontent2">
-                            <h3>Walmart Distribution</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div id="Midwest" class="vtabcontent2">
-                            <h3>Midwest Cabinet</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div id="BHI" class="vtabcontent2">
                             <h3>BHI Energy</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h5>Contract Deconner</h5>
+                            <p>Sep 2022 - Nov 2022</p>
+                            <p>Deconned contaminated tools and surfaces</p>
+                            <p>Hung lead shielding over and around specific locations or pieces of equipment to lessen
+                                radiation</p>
+                            <p>Disposed of contaminated/radiating waste in accordance with industry guidelines and
+                                standards</p>
+                        </div>
+                        <div id="Midwest" class="vtabcontent2">
+                            <h3>Midwest Cabinet</h3>
+                            <h5>Woodworker</h5>
+                            <p>May 2022 - June 2022</p>
+                            <p>Measured and cut materials in adherence to schematic drawings</p>
+                            <p>Reviewed job specifications to determin necessary tools and materials</p>
+                            <p>Demonstrated in-depth knowledge of sanders, saws, and routers</p>
+                        </div>
+                        <div id="Walmart" class="vtabcontent2">
+                            <h3>Walmart Distribution</h3>
+                            <h5>Order Filler</h5>
+                            <p>Mar 2022 - May 2022</p>
+                            <p>Alternated goods in inventory by observing first-in first-out method</p>
+                            <p>Check inventory and selected products from specific locations based on availability</p>
+                            <p>Performed regular cleaning to keep isles clean for forklifts</p>
+                        </div>
+                        <div id="Thermo" class="vtabcontent2 tcl">
+                            <h3>Thermo Fisher</h3>
+                            <h5>Farm Technician</h5>
+                            <p>Dec 2019 - June 2021</p>
+                            <p>General livestock management and care</p>
+                            <p>Drew blood from sheep to be used in bacteria platelets</p>
+                            <p>Performed weekly safety audits</p>
+                            <p>Filled incident reports when needed</p>
                         </div>
                     </div>
                 </div>
@@ -131,26 +162,26 @@
                 <div class="int_tabs">
                     <div class="htab">
                         <button class="htablinks" onclick="openAct(event, 'Woodworking')"
-                        id="defaultOpenh">Woodworking</button>
+                            id="defaultOpenh">Woodworking</button>
                         <button class="htablinks" onclick="openAct(event, 'Lifting')">Lifting</button>
                         <button class="htablinks" onclick="openAct(event, 'Track')">Track and Field</button>
                         <button class="htablinks" onclick="openAct(event, 'Music')">Music</button>
                     </div>
                     <div id="Woodworking" class="htabcontent">
                         <h3>Woodworking</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>I love working on projects out in my shop when I get the time.</p>
                     </div>
                     <div id="Lifting" class="htabcontent">
                         <h3>Lifting</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lifting has been a huge part of my life since middle school.</p>
                     </div>
                     <div id="Track" class="htabcontent">
                         <h3>Track and Field</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Competed in the shotput, discus, hammer, and weight.</p>
                     </div>
                     <div id="Music" class="htabcontent">
                         <h3>Music</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>I'm a huge music fanatic, with my favorite genre being classic rock.</p>
                     </div>
                 </div>
             </div>
@@ -232,20 +263,17 @@
     <div id="contact" class="d-flex flex-column align-items-center scrollFade">
         <div class="chatflex">
             <h1 class="text-center">Let's Chat</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi id consectetur, accusantium nemo explicabo
-                atque sequi, ea a soluta harum maiores consequatur. Nulla repellat expedita mollitia officia quas,
-                fugiat reiciendis.
-                Aliquid magnam nam asperiores? Voluptate, veritatis fugiat necessitatibus amet officiis iste minima est
-                aliquam cupiditate? Numquam cumque cum, animi quia odit excepturi sapiente illo ad beatae veniam
-                reiciendis quos laudantium?</p>
+            <div class="talk">
+                <p>Please feel free to fill out the form below to reach out to me with and questions and/or inquiries. </p>
+                <p>I would love to answer your questions or find a time to set up a meeting!</p>
+            </div>
         </div>
-        <form class="gform d-flex flex-column align-items-baseline" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwI3Zc227VZEZmNN3oDKo7TKNmVdY8rpjW2y0RPcMYFkMmmWtiFi_plbrJA4UgBxHCM/exec">
+        <form class="gform d-flex flex-column align-items-baseline" method="POST" data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbwI3Zc227VZEZmNN3oDKo7TKNmVdY8rpjW2y0RPcMYFkMmmWtiFi_plbrJA4UgBxHCM/exec">
             <label for="name">Name:</label>
             <input name="name" id="name" type="text">
             <label for="e-mail">E-mail:</label>
             <input name="email" id="e-mail" type="text">
-            <!-- <label for="subject">Subject:</label>
-            <input id="subject" type="text"> -->
             <label for="message">Message:</label>
             <div class="d-flex flex-column align-items-end">
                 <textarea name="message" id="message" rows="10" cols="50"></textarea>
@@ -254,8 +282,16 @@
         </form>
     </div>
     <div class="bottom d-flex">
-        <i class="fa-brands fa-github fa-2xl"></i>
-        <i class="fa-brands fa-linkedin fa-2xl"></i>
+        <a href="https://github.com/blake-jensen99">
+            <div>
+                <i class="fa-brands fa-github fa-2xl icon"></i>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/blake-jensen-aa1257221/">
+            <div>
+                <i class="fa-brands fa-linkedin fa-2xl icon"></i>
+            </div>
+        </a>
     </div>
     <!-- CONTACT -->
 

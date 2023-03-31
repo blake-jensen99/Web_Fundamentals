@@ -47,6 +47,14 @@ function toggleDark() {
 
     var element = document.querySelector(".home_name");
     element.classList.toggle("home_namedark");
+    
+    var element = document.querySelectorAll(".icon");
+    for (var k = 0; k < element.length; k++) {
+        element[k].classList.toggle("icon_dark")
+    }
+
+    var element = document.querySelector("#submit");
+    element.classList.toggle("submitdark");
 }
 
 

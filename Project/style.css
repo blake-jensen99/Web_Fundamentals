@@ -48,9 +48,7 @@
     color: white;
 }
 
-.icon_dark {
-    color: white;
-}
+
 
 body {
     background-color: #f5f2e4;
@@ -147,7 +145,7 @@ li:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #00c00a;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -159,13 +157,13 @@ li:hover {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #d1d1d1;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #0004ff;
 }
 
 
@@ -284,6 +282,7 @@ input:checked+.slider:before {
 
 .about_flex {
     position: absolute;
+    margin: 0px 80px;
 }
 
 .about_top {
@@ -542,6 +541,11 @@ input:checked+.slider:before {
     height: 900px;
 }
 
+.talk{
+    text-align: center;
+    margin-top: 50px;
+}
+
 .chatflex {
     margin: 80px 200px;
     position: absolute;
@@ -560,8 +564,7 @@ textarea {
     font-weight: bold;
 }
 
-#e-mail,
-#subject {
+#e-mail, #name {
     width: 300px;
 }
 
@@ -571,6 +574,13 @@ textarea {
     box-shadow: black 2px 2px;
 }
 
+.submitdark{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    box-shadow: rgb(255, 255, 255) 2px 2px 1px !important;
+}
+
 .bottom {
     margin: 0px 0px 50px 50px;
     gap: 20px;
@@ -578,8 +588,13 @@ textarea {
     padding-bottom: 50px;
 }
 
-.bottom i:hover {
-    cursor: pointer;
+
+.icon{
+    color: #0A192F;
+}
+
+.icon_dark {
+    color: white;
 }
 
 /* CONTACT */
